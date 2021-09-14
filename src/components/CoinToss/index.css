@@ -1,0 +1,72 @@
+/* Write your CSS here 
+Hex: #e2a139
+Hex: #f9d423
+Hex: #ffffff
+Hex: #a35200
+Hex: #334155
+Hex: #475569
+*/
+
+.app-container {
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+}
+
+.coinToss-container {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 9px;
+}
+.heading {
+  color: #a35200;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.coin-img {
+  width: 200px;
+  height: 200px;
+}
+.btn {
+  background-color: #f9d423;
+  color: #a35200;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.tossResult-container {
+  color: #334155;
+}
+.result {
+  font-weight: 700;
+  font-family: 'roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .coinToss-container {
+    width: 50vw;
+  }
+  .tossResult-container {
+    display: flex;
+    justify-content: center;
+  }
+  .result {
+    margin-right: 30px;
+    font-size: 20px;
+  }
+  .coin-img {
+    width: 250px;
+    height: 250px;
+  }
+}
